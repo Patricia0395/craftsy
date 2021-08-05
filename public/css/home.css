@@ -1,0 +1,71 @@
+.home main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.home main section.productos{
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap; /*respeta el ancho de los hijos*/
+    justify-content: space-around;
+}
+
+.home main section.productos article{
+    width: 380px;
+    margin: 10px 0 20px;
+}
+
+.home main section.productos article img{
+    width: 100%;
+}
+
+.home main section.productos article h4{
+    margin: 10px 0;
+}
+
+.home main section.productos article a{
+    background-color: #ef4c27;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.home main aside{
+    width: 320px;
+    }
+.home main aside h3{
+    background-color: #fff;
+    border: 1px solid #acd8e6;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.home main aside section.tutoriales article{
+    border: 1px solid #acd8e6;
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+
+.home main aside article p{
+   margin-left: 10px;
+}
+
+.home main aside section.box-publicidad{
+    margin-top: 30px;
+}
+
+.home main aside article.publicidad{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #acd8e6;
+ }
+ .home main aside article.publicidad img{
+    width: 100%;
+ }
