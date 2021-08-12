@@ -21,6 +21,7 @@ header nav ul.menu{
     padding-left: 20px;
 }
 header nav ul.usuario{
+    width: 100%;
     justify-content: flex-end;
 }
 

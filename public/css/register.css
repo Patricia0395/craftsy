@@ -1,0 +1,11 @@
+.register .box-check-all{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+
+.register textarea{
+    resize: none;
+}

@@ -1,13 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Register</title>
 </head>
-<body>
-    
+
+<body class="register">
+    <header>
+        <div>
+            <a href="/"><img src="/img/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="">smartphone</a></li>
+                <li><a href="">tablets</a></li>
+                <li><a href="">computadoras</a></li>
+            </ul>
+            <ul class="usuario">
+                <li><a href="/login">login</a></li>
+                <li><a href="/register">register</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="formulario">
+            <h2>REGISTRATE</h2>
+            <form action="">
+            <div class="box-form">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="tu nombre" id="nombre" name="nombre">
+                <span class="error">Obligatorio</span>
+            </div>
+            <div class="box-form">
+                <label for="email">Email</label>
+                <input type="email" placeholder="tu email" id="email" name="email">
+                <span class="error">Obligatorio</span>
+            </div>
+            <div class="box-form">
+                <label for="pass">Contraseña</label>
+                <input type="password" placeholder="tu contraseña" id="pass" name="password">
+                <span class="error">Obligatorio</span>
+            </div>
+            <div>
+                <h4>País de nacimiento</h4>
+                <div class="box-form">
+                    <select name="pais" id="pais">
+                        <option value="" selected hidden>Elije tu país..</option>
+                        <option value="ar">Argentina</option>
+                        <option value="bre">Brazil</option>
+                        <option value="cl">Chile</option>
+                        <option value="pe">Perú</option>
+                        <option value="uy">Uruguay</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <h4>Género</h4>
+                <div class="box-check-all">
+                    <div class="box-check">
+                        <input type="radio" name="genero" id="masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
+                    <div class="box-check">
+                        <input type="radio" name="genero" id="femenino">
+                        <label for="femenino">Femenino</label>
+                    </div> 
+                    <div class="box-check">
+                        <input type="radio" name="genero" id="noDecirlo">
+                        <label for="noDecirlo">Prefiero no decirlo</label>
+                    </div>
+                    </div>
+                    <h4>Hobbies</h4>
+                    <div class="box-check-all">
+                        <div class="box-check">
+                            <input type="checkbox" name="hobbies" id="guitarra">
+                            <label for="guitarra">Guitarra</label>
+                        </div>
+                        <div class="box-check">
+                            <input type="checkbox" name="hobbies" id="futbol">
+                            <label for="futbol">Futbol</label>
+                        </div>
+                        <div class="box-check">
+                            <input type="checkbox" name="hobbies" id="tenis">
+                            <label for="tenis">Tenis</label>
+                        </div>
+                        <div class="box-check">
+                            <input type="checkbox" name="hobbies" id="programacion" checked>
+                            <label for="programacion">Programacion</label>
+                        </div>
+
+                    </div>
+
+                </div>
+                <h4>Comentario</h4>
+                <div class="box-form">
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="box-check-box-all">
+                    <div class="box-check">
+                        <input type="checkbox" name="tarms" id="terms">
+                        <label for="terms">Acepto términos y condiciones</label>
+
+                    </div>
+
+                </div>
+
+
+                </div>
+            
+            </form>
+        </div>
+    </main>
 </body>
+
 </html>
