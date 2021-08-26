@@ -10,20 +10,6 @@
     margin: 20px 0;
 }
 
-.login button{
-    background-color: #3c8bbc;
-    padding: 10px;
-    width: 100px;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-}
-
-.login button:hover{
-    background-color: rgb(229 229 229); 
-    cursor: pointer;
-}
-
 .login .box-check{
     justify-content: flex-end;
 }

@@ -64,3 +64,16 @@ span.error{
     font-size: 12px;
     justify-content: space-between;
 }
+button{
+    background-color: #3c8bbc;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: rgb(229 229 229); 
+    cursor: pointer;
+}

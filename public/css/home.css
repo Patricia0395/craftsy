@@ -6,7 +6,7 @@
 
 .home main section.productos{
     width: 800px;
-    background-color: #fff;
+    
     display: flex;
     flex-wrap: wrap; /*respeta el ancho de los hijos*/
     justify-content: space-around;
@@ -15,10 +15,22 @@
 .home main section.productos article{
     width: 380px;
     margin: 10px 0 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #acd8e6;
+    position: relative;
 }
 
-.home main section.productos article img{
+.home main section.productos article .img-produc{
     width: 100%;
+   
+    
+}
+
+.home main .productos article .img-descuento{
+    position: absolute;
+    top: 0;
+    left: 20px;
 }
 
 .home main section.productos article h4{
